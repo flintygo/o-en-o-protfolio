@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  padding: 10px;
+  height: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  display: flex;
+  background-color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+#projecten {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+
+.project {
+  margin: 0px;
+  padding: 5px;
+  height: 50vh;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  transition: 0.1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.project:hover {
+  padding: 0px;
+  margin: 5px;
+}
+
+.project-title {
+  height: 30px;
+  width: auto;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin-left: -5px;
+  margin-right: -5px;
+  text-align: center;
+}
+
+footer {
+  height: 300px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tags {
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
